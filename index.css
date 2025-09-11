@@ -4,7 +4,7 @@ html, body, h1 {
 }
 body {
   /* background: #B2B2B2 url(logo.png) no-repeat center center fixed; */
-  background-color: #B2B2B2;
+  background-color: #333;
   position:relative;
 }
 
@@ -514,4 +514,16 @@ footer small {
 .svg-elem-30 {
   -webkit-animation: animate-svg-fill-30 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.7s both;
           animation: animate-svg-fill-30 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.7s both;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.githubsvg {
+  margin: 8px;
+  width: 32px;
+  height: 32px;
+  align-self: flex-end;
 }
